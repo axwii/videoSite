@@ -1,0 +1,87 @@
+main {
+  max-width: 80ch;
+  margin: auto;
+  padding: 15px;
+}
+footer {
+  max-width: 100%;
+  background-color: #000000;
+  color: white;
+  padding: 15px;
+}
+body {
+  background-color: rgb(221, 220, 205);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 4cqmin;
+  margin: 0;
+}
+h1 {
+  font-size: 4cqmin;
+  background-color: #9b000011;
+  border-radius: 8px;
+}
+.paragraf {
+  max-width: 45ch;
+  padding: 0 10px;
+}
+#content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 80ch;
+  margin: auto;
+}
+.fill {
+  max-width: 90%;
+  border-radius: 8px;
+}
+#button {
+  padding: 10px;
+}
+.center {
+  justify-content: center;
+  display: flex;
+  align-content: center;
+}
+.primary-button {
+  background-color: #9B0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  transition: background-color 0.3s;
+  margin: 0 auto;
+  padding: 10px 0;
+  border-radius: 8px;
+}
+.primary-button:hover {
+  background-color: #7A0000;
+}
+.primary-button:active {
+  background-color: #871717;
+}
+/* Style for each image in the grid */
+.image-item {
+  overflow: hidden;
+  width: 30%;
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+.image-item img {
+  height: auto;
+  display: block;
+}
+.flex_col {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5px;
+  @media (min-width: 800px) {
+    padding: 10px;
+  }
+}
